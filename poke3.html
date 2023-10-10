@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,16 +16,18 @@
         </div>
 
         <div class="pokemon">
-            <img src="384.png" width="150">
+            <img src="150.png" width="150">
             <h2 class="pergunta">Qual o nome desse pokémon?</h2>
             <div class="alternativas">
-                <label><input type="radio" name="alternativa">a) Kyogre</label><br>
-                <label><input type="radio" name="alternativa">b) Rayquaza</label><br>
-                <label><input type="radio" name="alternativa">c) Groudon</label><br>
+                <label><input type="radio" name="alternativa" id="alternativacerta">a) Mewtwo</label><br>
+                <label><input type="radio" name="alternativa">b) Mew</label><br>
+                <label><input type="radio" name="alternativa">c) Meow</label><br>
             </div>
-            <button>Ver resposta</button>
+            <button type="button" onclick="VerificarResposta()">Verificar Resposta</button>
         </div>
 
     </main>
+    <a href="poke4.html">Próxima pergunta</a>
+    <script src="app.js"></script>
 </body>
 </html>
